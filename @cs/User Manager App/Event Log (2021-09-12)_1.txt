@@ -1,0 +1,12 @@
+9:19:01.858 AM 9/12/2021 Debug ViewModel.lvlib:ViewModel.lvclass Framework instance started
+9:19:01.858 AM 9/12/2021 Info ViewModel.lvlib:ViewModel.lvclass Launching
+9:19:01.985 AM 9/12/2021 Info User Manager Model.lvlib:User Manager Model.lvclass Launching
+9:19:02.042 AM 9/12/2021 Info View Manager.lvlib:View Manager.lvclass Launching
+9:19:02.142 AM 9/12/2021 Info Login View.lvlib:Login View.lvclass Launching
+9:19:02.244 AM 9/12/2021 Info User Manager View.lvlib:User Manager View.lvclass Launching
+9:20:22.372 AM 9/12/2021 Info ViewModel.lvlib:ViewModel.lvclass Stopped with 0 nested actors (final code: 0)
+9:20:22.372 AM 9/12/2021 Info User Manager Model.lvlib:User Manager Model.lvclass Stopped with 0 nested actors (final code: 0)
+9:20:22.373 AM 9/12/2021 Info View Manager.lvlib:View Manager.lvclass Stopped with 0 nested actors (final code: 0)
+9:20:22.373 AM 9/12/2021 Info Login View.lvlib:Login View.lvclass Stopped with 0 nested actors (final code: 0)
+9:20:22.374 AM 9/12/2021 Info User Manager View.lvlib:User Manager View.lvclass Stopped with 0 nested actors (final code: 0)
+9:20:22.649 AM 9/12/2021 Debug ViewModel.lvlib:ViewModel.lvclass Framework instance stopped (0)

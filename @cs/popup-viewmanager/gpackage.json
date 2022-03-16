@@ -1,0 +1,25 @@
+{
+	"author": {
+		"email": "jon.mcbee@composed.io",
+		"name": "Jon McBee",
+		"url": "www.composed.io"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-popup-viewmanager-mva-extension/issues",
+	"dependencies": {
+		"@cs/mva-dialogbox": "^0.1.1-Beta",
+		"@cs/mva-viewable": "^0.1.1"
+	},
+	"description": "MVA extension that allows Dialogs to act like ViewManagers",
+	"license": "ISC",
+	"lvversion": ">=17",
+	"name": "@cs/popup-viewmanager",
+	"os": [
+		"Mac OS",
+		"Windows 3.1",
+		"Windows x64",
+		"Linux x64",
+		"Mac OS X x64"
+	],
+	"repository": "https://bitbucket.org/composedsystems/composed-popup-viewmanager-mva-extension/src",
+	"version": "1.1.1"
+}

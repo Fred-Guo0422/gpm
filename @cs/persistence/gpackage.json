@@ -1,0 +1,24 @@
+{
+	"author": {
+		"email": "jon.mcbee@composedsystems.com",
+		"name": "Jon McBee",
+		"url": "www.composedsystems.com"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-persistence/issues",
+	"dependencies": {
+		"@cs/data-type-serializer": "^0.0.7-Beta"
+	},
+	"description": "Beta version of a persistence package.",
+	"keywords": [
+		"Persistence",
+		"XML"
+	],
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/persistence",
+	"os": [
+		"Windows x64"
+	],
+	"repository": "https://bitbucket.org/composedsystems/composed-persistence",
+	"version": "0.0.9-Beta"
+}

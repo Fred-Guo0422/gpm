@@ -1,0 +1,31 @@
+{
+	"author": {
+		"email": "ethan.stern@composed.io",
+		"name": "Ethan Stern",
+		"url": "www.composed.io"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-transport/issues",
+	"dependencies": {
+		"@cs/actor-framework-messages": "^0.1.0",
+		"@cs/variant": "^1.0.1"
+	},
+	"description": "Q: How did the chicken cross the LabVIEW application? (A: Transport)",
+	"files": [
+		"Source"
+	],
+	"keywords": [
+		"transport",
+		"send",
+		"abstract",
+		"communication",
+		"queue",
+		"notifier",
+		"event",
+		"actor"
+	],
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/transport",
+	"repository": "https://bitbucket.org/composedsystems/composed-transport/",
+	"version": "0.0.4"
+}

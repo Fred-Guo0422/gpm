@@ -1,0 +1,26 @@
+{
+	"author": {
+		"email": "paul.ross@composedsystems.com",
+		"name": "Paul Ross",
+		"url": "https://www.composed.io/"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-event-logger/issues",
+	"dependencies": {},
+	"description": "Composed Event Logger is an extendable, ready to use LabVIEW event logger. Injectable event destinations, referred to as 'sinks', log entry formats, and application wide error processing allow extension and customization",
+	"devDependencies": {
+		"@cs/ci": "^1.1.0"
+	},
+	"files": [
+		"Source",
+		"Examples"
+	],
+	"homepage": "https://www.composed.io/",
+	"keywords": [
+		"event logger"
+	],
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/event-logger",
+	"repository": "https://bitbucket.org/composedsystems/composed-event-logger.git",
+	"version": "0.8.0"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="html_stylesheet.css"?>
+<CATALOG>
+<table class="debug"><tr class="row_info"><td class="col_time">5:38:32.383 PM 8/22/2021</td><td class="col_type">INFO</td><td class="col_message">232<br>xxxx
+</td></tr></table>
+<table class="debug"><tr class="row_failure"><td class="col_time">5:38:32.383 PM 8/22/2021</td><td class="col_type">FAILURE</td><td class="col_message">232<br>xxxx
+</td></tr></table>
+<table class="debug"><tr class="row_failure"><td class="col_time">5:38:32.383 PM 8/22/2021</td><td class="col_type">FAILURE</td><td class="col_message">232<br>xxxx
+</td></tr></table>
+<table class="debug"><tr class="row_failure"><td class="col_time">5:38:32.383 PM 8/22/2021</td><td class="col_type">FAILURE</td><td class="col_message">232<br>xxxx
+</td></tr></table>
+
+
+<CATALOG>

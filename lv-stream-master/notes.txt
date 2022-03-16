@@ -1,0 +1,29 @@
+Stream Library
+	- URI
+		- https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+		- Mostly used to identify endpoints, used later for message topic paths
+		
+	-Stream
+		- Represents sequence of bytes (string) that can be traversed
+		- Base class for all mechanisms that read/write data to medium (memory, file, network, etc.)
+		- Includes concrete implementations for StringStream (memory buffer) and FileStream
+		
+	- Endpoint
+		- Can connect to another endpoint (client) or be connected to (server)
+	
+	- Connection
+		- Represents single communication channel
+		- Spawned by server or created directly
+		- Provides implementation of connection state events
+		- Provides Stream instance for outside code to use (Concrete stream instance created by child)
+		
+TCP Library
+	-TCPStream
+		- Provides implementation to get data in/out of a tcp connection
+		
+	-TCPServer
+		- Manages TCP listener, spawns TCPClient for connections
+		
+	-TCPClient
+		- Manages tcp connection and triggers connection events
+		- Creates TCPStream instance for outside access to data

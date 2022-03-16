@@ -1,0 +1,6 @@
+[submodule "externals/composed-database-interface"]
+	path = externals/composed-database-interface
+	url = https://bitbucket.org/composedsystems/composed-database-interface
+[submodule "externals/composed-assertions"]
+	path = externals/composed-assertions
+	url = https://bitbucket.org/composedsystems/composed-assertions

@@ -1,0 +1,17 @@
+{
+	"Build  Specifications": [],
+	"BuildSpec.Name of target (My Computer)": "My Computer",
+	"Config File Relative to Base Path": "composed-ci.json",
+	"Local Base Path": "Z:\\labview\\composed-database-mysql",
+	"Package Directory": "gpm_packages",
+	"Project to Build": "composed-mysql-database.lvproj",
+	"Test blacklist": [],
+	"Test whitelist": [],
+	"Use CS default VIA config?": true,
+	"VI Analyzer Configuration": [
+		"..\\..\\.."
+	],
+	"VI Tester Directory": "..\\..\\..",
+	"VIA Excluded Paths": [],
+	"VIA.Configuration File Password": ""
+}

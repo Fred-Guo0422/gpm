@@ -1,0 +1,277 @@
+.image_logo {
+    background-image: url(html_logo.gif); 
+    background-repeat: no-repeat; 
+    height: 60px;
+}
+
+body {
+    /*background: url(html_bg.jpg) repeat-x;*/
+    background: white;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    padding: 15px 0px 15px 0px;
+    word-wrap: break-word;
+}
+
+caption {
+    font-weight: bold;
+    text-align: left;
+    color: #065fa3;
+}
+
+/* Error text notification in Result tab */
+p.error {
+    font-weight: bold;
+    color: red;
+    margin: 15px 0px 15px 10px;
+}
+
+hr.fat {
+    border: 1px solid black;
+}
+
+/* Image table (used by Attachment) */
+table.image {
+	border-collapse: collapse;
+	margin: 0px 0px 0px 10px;
+}
+
+/* Summary Table (used by Setup, Result and Event) */
+table.summary {
+    background: white;
+    border: 2px solid black;
+	border-collapse: collapse;
+	empty-cells: show;
+	margin: 0px 0px 0px 10px;
+}
+.col_name {
+    text-align: left;
+	width : 250px;
+}
+.col_datatype {
+	text-align: left;
+	width: 150px;
+}
+.col_value {
+	text-align: left;
+	width: 560px;
+}
+.col_result{
+	text-align: left;
+	width: 250px;
+}
+.col_unit {
+	text-align: left;
+	width: 150px;
+}
+.col_requirement {
+	text-align: left;
+	width: 150px;
+}
+.col_verdict_pass {
+	text-align: left;
+    font-weight: bold;
+	width: 150px;
+    color: green;
+}
+.col_verdict_fail {
+	text-align: left;
+    font-weight: bold;
+	width: 150px;
+    color: red;
+}
+.col_eventinfo {
+	text-align: left;
+	width: 250px;
+}
+.col_eventtime {
+	text-align: left;
+	width: 75px;
+}
+.col_eventtype {
+	text-align: left;
+	width: 75px;
+}
+.row_header {
+	text-align: center;
+    color: #065fa3;
+    font-weight: bold;
+}
+table.summary td{
+	border: 1px solid black;
+}
+table.summary tr{
+	border: 1px solid black;
+}
+table.summary th{
+	border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: #065fa3;
+}
+
+/* Debug Table */
+table.debug {
+    width: 1080px;
+    table-layout: fixed;
+}
+.col_time {
+	width: 200px;
+}
+.col_type {
+	width: 200px;
+}
+.col_message{
+    overflow: auto;
+}
+.row_debug{background: lightblue;}
+.row_info{background: lightgrey;}
+.row_success{background: lightgreen;}
+.row_failure{background: pink;}
+.row_error{background: pink;}
+.row_warning{background: yellow;}
+
+/* Details Table (not in use) */
+table.details {
+	width: 250px;
+	margin: 0px 0px 0px 10px;
+	border: 2px solid black;
+}
+table.details th {
+	background: white;
+	width: 9em;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 1em;
+	border: none;
+	padding: 2px 4px;
+}
+table.details td {
+	vertical-align: top;
+	border: none;
+	padding: 2px 4px;
+}
+
+/* Headers */
+h1 {
+	font: bold 20px Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 10px;
+	margin: 20px 0px 5px 0px;
+	color: #065fa3;
+}
+h2 {
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 10px;
+	margin: 20px 0px 15px 0px;
+}
+h3 {
+	font-size: 15px;
+	margin: 10px;
+	color: #065fa3;
+	padding: 19px 0px 9px 0px;
+	display: block;
+	clear: both;
+}
+h4 {
+	font-size: 14px;
+	margin: 10px;
+	font-weight: normal;
+	margin: 10px 0px 5px 10px;
+	color: #065fa3;
+}
+
+/* Colors */
+.headingColorError {color:red;}
+.headingColorNormal {color:black;}
+.headingColorWarning {color:orange;}
+.headingColorPass {color:green;}
+
+/* Menu Tabs */
+#tabs {
+	width: 100%;
+	font-size: 100%;
+	line-height: normal;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#tabs ul {
+	margin:0;
+	list-style-image: none;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#tabs li {
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+#tabs a {
+	float:left;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	background-color:#065fa3;
+	/*background-image: url(tableftH.gif);*/
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+#tabs a span {
+	float:left;
+	display:block;
+	padding:5px 15px 4px 6px;
+	color:white;
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+#tabs a:hover {
+	background-color: black;
+	background-position:0% -42px;
+}
+#tabs a:hover span {
+	background-position:100% -42px;
+	color:orange ;
+}
+#tabs #current a {
+	background-color: black;
+	background-position:0% -42px;
+}
+#tabs #current a span {
+	background-position:100% -42px;
+	color: orange;
+}
+#tabs #current a:hover {
+	background-color: black;
+	background-position:0% -42px;
+}
+#tabs #current a:hover span {
+	background-position:100% -42px;
+	color:orange;
+}
+
+/* Results and Progress fonts (not in use) */
+#results {
+	padding:0px 0px 0px 10px;
+	border-width: 1px;
+	border-style: solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	float: none;
+}
+#progress {
+	padding:0px 0px 0px 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #eeeeee;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}

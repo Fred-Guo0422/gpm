@@ -1,0 +1,32 @@
+{
+	"author": {
+		"email": "jon.mcbee@composedsystems.com",
+		"name": "Jon McBee",
+		"url": "www.composed.io"
+	},
+	"bugs": "https://bitbucket.org/composedsystems/composed-linked-lists/issues?status=new&status=open",
+	"dependencies": {
+		"@cs/lookup-table": "^0.1.0",
+		"@cs/persistence": "^0.0.9-Beta",
+		"@cs/variant": "^1.0.1"
+	},
+	"description": "A malleable, by reference, linked list",
+	"files": [
+		"Source"
+	],
+	"keywords": [
+		"List",
+		"Dictionary",
+		"Tree"
+	],
+	"license": "MIT",
+	"lvversion": ">=17",
+	"name": "@cs/linked-list",
+	"os": [
+		"Windows 95/NT",
+		"Linux x64",
+		"Mac OS X x64"
+	],
+	"repository": "https://bitbucket.org/composedsystems/composed-linked-lists/src/master/",
+	"version": "1.7.5"
+}

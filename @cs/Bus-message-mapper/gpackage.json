@@ -1,0 +1,26 @@
+{
+	"author": {
+		"email": "christopher.cilino@composedsystems.io",
+		"name": "Chirs Cilnio",
+		"url": "www.composed.io"
+	},
+	"dependencies": {
+		"@cs/variant": "^1.0.1"
+	},
+	"description": "This is a static code analyis tool for understanding the locations of publishers and subscribers of MVA data. ",
+	"keywords": [
+		"MVA",
+		"tool",
+		"message",
+		"mapper"
+	],
+	"license": "MIT",
+	"lvversion": ">=19",
+	"name": "@cs/mva-message-mapper",
+	"os": [
+		"Windows 3.1",
+		"Windows 95/NT",
+		"Windows x64"
+	],
+	"version": "0.1.16"
+}
