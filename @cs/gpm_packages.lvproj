@@ -165,19 +165,17 @@
 			<Item Name="RootModel.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-core/Source/RootModel/RootModel.lvlib"/>
 			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-core/Source/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
 		</Item>
-		<Item Name="mva-dialogbox" Type="Folder">
-			<Item Name="DialogBoxViewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-dialogbox/source/DialogBoxViewManager/DialogBoxViewManager.lvlib"/>
-			<Item Name="IDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-dialogbox/source/IDialogBox/IDialogBox.lvlib"/>
-			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-dialogbox/source/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
-			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-dialogbox/source/TwoButtonDialobBox/TwoButtonDialogBox.lvlib"/>
-		</Item>
 		<Item Name="mva-viewable" Type="Folder">
+			<Item Name="Dialogbox" Type="Folder">
+				<Item Name="IDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/IDialogBox/IDialogBox.lvlib"/>
+				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
+				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/TwoButtonDialobBox/TwoButtonDialogBox.lvlib"/>
+			</Item>
 			<Item Name="ActorEvents.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/ActorEvents.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/AutoRegistration.lvlib"/>
 			<Item Name="IViewable.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable.lvlib"/>
 			<Item Name="IViewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager.lvlib"/>
 			<Item Name="IViewModel.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewModel/IViewModel.lvlib"/>
-			<Item Name="MDIVIewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/MDIVIewManager/MDIVIewManager.lvlib"/>
 		</Item>
 		<Item Name="Network-interface" Type="Folder">
 			<Item Name="Examples" Type="Folder">
@@ -311,9 +309,6 @@
 				</Item>
 			</Item>
 			<Item Name="Persistence.lvproj" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/persistence/Persistence.lvproj"/>
-		</Item>
-		<Item Name="popup-viewmanager" Type="Folder">
-			<Item Name="Popup ViewManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/popup-viewmanager/Source/Popup ViewManager/Popup ViewManager.lvlib"/>
 		</Item>
 		<Item Name="run-time-assertions" Type="Folder">
 			<Item Name="Source" Type="Folder">

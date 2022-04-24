@@ -6,9 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Message Overrides" Type="Folder">
-		<Item Name="Test Dialog Return Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/example/Integration Test/ConcreteModel Messages/Test Dialog Return Msg/Test Dialog Return Msg.lvclass"/>
-	</Item>
+	<Item Name="Message Overrides" Type="Folder"/>
 	<Item Name="ConcreteModel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/example/Integration Test/ConcreteModel/ConcreteModel.lvclass"/>
 	<Item Name="ConcreteViewModel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/example/Integration Test/ConcreteViewModel/ConcreteViewModel.lvclass"/>
 </Library>

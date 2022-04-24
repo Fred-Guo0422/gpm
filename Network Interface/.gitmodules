@@ -1,3 +1,0 @@
-[submodule "externals/cs-event-logger"]
-	path = externals/cs-event-logger
-	url = https://bitbucket.org/composedsystems/composed-event-logger/src/master/
