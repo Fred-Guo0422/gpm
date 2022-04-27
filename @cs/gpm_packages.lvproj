@@ -167,9 +167,9 @@
 		</Item>
 		<Item Name="mva-viewable" Type="Folder">
 			<Item Name="Dialogbox" Type="Folder">
-				<Item Name="IDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/IDialogBox/IDialogBox.lvlib"/>
-				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
-				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/TwoButtonDialobBox/TwoButtonDialogBox.lvlib"/>
+				<Item Name="IDialogBox.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-dialogbox/source/IDialogBox/IDialogBox.lvlib"/>
+				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../mva-viewable/Source/Dialogbox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
+				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../mva-viewable/Source/Dialogbox/TwoButtonDialobBox/TwoButtonDialogBox.lvlib"/>
 			</Item>
 			<Item Name="ActorEvents.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/ActorEvents.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/ActorEvents/AutoRegistration.lvlib"/>
@@ -310,45 +310,7 @@
 			</Item>
 			<Item Name="Persistence.lvproj" Type="Document" URL="/&lt;vilib&gt;/gpm_packages/@cs/persistence/Persistence.lvproj"/>
 		</Item>
-		<Item Name="run-time-assertions" Type="Folder">
-			<Item Name="Source" Type="Folder">
-				<Item Name="Assert" Type="Folder"/>
-				<Item Name="Assert Equal" Type="Folder"/>
-				<Item Name="Assert Greater" Type="Folder"/>
-				<Item Name="Assert Greater or Equal" Type="Folder"/>
-				<Item Name="Assert Less" Type="Folder"/>
-				<Item Name="Assert Less or Equal" Type="Folder"/>
-				<Item Name="Assert Not Equal" Type="Folder"/>
-				<Item Name="Run Time Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/run-time-assertions/Source/Run Time Assertions.lvlib"/>
-			</Item>
-		</Item>
 		<Item Name="Test Executive" Type="Folder">
-			<Item Name="Sandbox" Type="Folder">
-				<Item Name="Nested Conditional in While Loop Example" Type="Folder">
-					<Item Name="Device End Finder" Type="Folder"/>
-					<Item Name="Device Post Dip Length" Type="Folder"/>
-					<Item Name="Iterate" Type="Folder"/>
-					<Item Name="iTest Step" Type="Folder"/>
-				</Item>
-				<Item Name="Parallelizer Example" Type="Folder">
-					<Item Name="iTest Step" Type="Folder"/>
-					<Item Name="iTest Step Messages" Type="Folder">
-						<Item Name="Do That Thang Msg" Type="Folder"/>
-					</Item>
-					<Item Name="Parallelizer" Type="Folder"/>
-					<Item Name="Popup" Type="Folder"/>
-					<Item Name="Process Model" Type="Folder"/>
-					<Item Name="Process Model Messages" Type="Folder">
-						<Item Name="Create Process Msg" Type="Folder"/>
-						<Item Name="Execute Msg" Type="Folder"/>
-					</Item>
-				</Item>
-				<Item Name="Subroutine Example" Type="Folder"/>
-				<Item Name="While Loop Stop Example" Type="Folder">
-					<Item Name="Mock Executioner" Type="Folder"/>
-					<Item Name="Mock Test Step" Type="Folder"/>
-				</Item>
-			</Item>
 			<Item Name="Test Executive.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/test-executive/Source/Test Executive/Test Executive.lvlib"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
@@ -494,6 +456,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Run Time Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/gpm_packages/@cs/run-time-assertions/Source/Run Time Assertions.lvlib"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
