@@ -5,9 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
-		<Item Name="Dialog Return Msg" Type="Folder">
-			<Item Name="Dialog Return Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/IDialogBox/IDialogBox Messages/Dialog Return Msg/Dialog Return Msg.lvclass"/>
-		</Item>
+		<Item Name="Dialog Return Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/IDialogBox/IDialogBox Messages/Dialog Return Msg/Dialog Return Msg.lvclass"/>
 	</Item>
 	<Item Name="IDialogBox.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/Dialogbox/IDialogBox/IDialogBox/IDialogBox.lvclass"/>
 </Library>
