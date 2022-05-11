@@ -6,7 +6,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages to IViewManager" Type="Folder">
-		<Item Name="Launch Dialog Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager Messages/Launch Dialog Msg/Launch Dialog Msg.lvclass"/>
 		<Item Name="Launch Nested Views Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager Messages/Launch Nested Views Msg/Launch Nested Views Msg.lvclass"/>
 		<Item Name="Move Splitter Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager Messages/Move Splitter Msg/Move Splitter Msg.lvclass"/>
 		<Item Name="Set Splitter Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager Messages/Set Splitter Msg/Set Splitter Msg.lvclass"/>

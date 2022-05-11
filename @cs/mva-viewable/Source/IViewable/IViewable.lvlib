@@ -19,6 +19,7 @@
 		<Item Name="Nested Value Update Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable Messages/Catch Nested Value Change Msg/Nested Value Update Msg.lvclass"/>
 		<Item Name="Initialize Front Panel Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable Messages/Initialize Front Panel Msg/Initialize Front Panel Msg.lvclass"/>
 		<Item Name="Set Minimum Panel Size Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable Messages/Set Minimum Panel Size Msg/Set Minimum Panel Size Msg.lvclass"/>
+		<Item Name="Launch Dialog Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable Messages/Launch Dialog Msg/Launch Dialog Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable/IViewable.lvclass"/>
 	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gpm_packages/@cs/mva-viewable/Source/IViewable/ProtectedSubpanel/ProtectedSubpanel.lvclass"/>

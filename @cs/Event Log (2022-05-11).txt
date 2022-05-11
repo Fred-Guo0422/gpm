@@ -1,0 +1,8 @@
+8:48:15.639 pm 11/05/2022 Debug IViewModel.lvlib:IViewModel.lvclass Framework instance started
+8:48:15.639 pm 11/05/2022 Info IViewModel.lvlib:IViewModel.lvclass Launching
+8:48:16.094 pm 11/05/2022 Info IModel.lvlib:IModel.lvclass Launching
+8:48:16.095 pm 11/05/2022 Info IViewable.lvlib:IViewable.lvclass Launching
+8:48:17.645 pm 11/05/2022 Info IViewModel.lvlib:IViewModel.lvclass Stopped with 0 nested actors (final code: 0)
+8:48:17.645 pm 11/05/2022 Info IModel.lvlib:IModel.lvclass Stopped with 0 nested actors (final code: 0)
+8:48:17.693 pm 11/05/2022 Info IViewable.lvlib:IViewable.lvclass Stopped with 0 nested actors (final code: 0)
+8:48:17.844 pm 11/05/2022 Debug IViewModel.lvlib:IViewModel.lvclass Framework instance stopped (0)
