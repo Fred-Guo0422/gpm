@@ -1,1 +1,0 @@
-Type assertions are helpful when creating malleable VIs and using type specialization structures.  There are none built in to LabVIEW 2017, so this library exists to add that functionality where needed. The initial library focus is on differentiating numeric types and array dimensionality.
